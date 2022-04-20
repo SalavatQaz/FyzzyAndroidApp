@@ -12,11 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Растояние"
+        android:layout_margin="20dp"
         />
     <EditText
         android:id="@+id/AP"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_margin="20dp"
         android:hint="Амплитуда"
         />
     <Button
@@ -24,6 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="getRes"
-        android:text="Резельтат"/>
+        android:layout_margin="10dp"
+        android:text="Резельтат"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
