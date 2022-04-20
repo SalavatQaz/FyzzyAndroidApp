@@ -33,97 +33,220 @@ public class Rules {
     public static ArrayList<Rules> genRules(){
         ArrayList<Rules> rules = new ArrayList<Rules>();
 
-        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_no()));
-        rules.add(new Rules("SO_CLOSE","MID",Partition.R_no()));
-        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_no()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_1()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_1()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_1()));
 
-        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_maybe_no()));
-        rules.add(new Rules("SO_CLOSE","MID",Partition.R_maybe_no()));
-        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_maybe_no()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_2()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_2()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_2()));
 
-        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_50()));
-        rules.add(new Rules("SO_CLOSE","MID",Partition.R_50()));
-        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_50()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_3()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_3()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_3()));
 
-        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_maybe_yes()));
-        rules.add(new Rules("SO_CLOSE","MID",Partition.R_maybe_yes()));
-        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_maybe_yes()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_4()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_4()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_4()));
 
-        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_yes()));
-        rules.add(new Rules("SO_CLOSE","MID",Partition.R_yes()));
-        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_yes()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_5()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_5()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_5()));
 
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_6()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_6()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_6()));
 
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_7()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_7()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_7()));
 
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_8()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_8()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_8()));
 
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_9()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_9()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_9()));
 
-        rules.add(new Rules("CLOSE","SMALL",Partition.R_no()));
-        rules.add(new Rules("CLOSE","MID",Partition.R_no()));
-        rules.add(new Rules("CLOSE","BIG",Partition.R_no()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_10()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_10()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_10()));
 
-        rules.add(new Rules("CLOSE","SMALL",Partition.R_maybe_no()));
-        rules.add(new Rules("CLOSE","MID",Partition.R_maybe_no()));
-        rules.add(new Rules("CLOSE","BIG",Partition.R_maybe_no()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_11()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_11()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_11()));
 
-        rules.add(new Rules("CLOSE","SMALL",Partition.R_50()));
-        rules.add(new Rules("CLOSE","MID",Partition.R_50()));
-        rules.add(new Rules("CLOSE","BIG",Partition.R_50()));
-
-        rules.add(new Rules("CLOSE","SMALL",Partition.R_maybe_yes()));
-        rules.add(new Rules("CLOSE","MID",Partition.R_maybe_yes()));
-        rules.add(new Rules("CLOSE","BIG",Partition.R_maybe_yes()));
-
-        rules.add(new Rules("CLOSE","SMALL",Partition.R_yes()));
-        rules.add(new Rules("CLOSE","MID",Partition.R_yes()));
-        rules.add(new Rules("CLOSE","BIG",Partition.R_yes()));
-
-
-
-
-
-        rules.add(new Rules("MID","SMALL",Partition.R_no()));
-        rules.add(new Rules("MID","MID",Partition.R_no()));
-        rules.add(new Rules("MID","BIG",Partition.R_no()));
-
-        rules.add(new Rules("MID","SMALL",Partition.R_maybe_no()));
-        rules.add(new Rules("MID","MID",Partition.R_maybe_no()));
-        rules.add(new Rules("MID","BIG",Partition.R_maybe_no()));
-
-        rules.add(new Rules("MID","SMALL",Partition.R_50()));
-        rules.add(new Rules("MID","MID",Partition.R_50()));
-        rules.add(new Rules("MID","BIG",Partition.R_50()));
-
-        rules.add(new Rules("MID","SMALL",Partition.R_maybe_yes()));
-        rules.add(new Rules("MID","MID",Partition.R_maybe_yes()));
-        rules.add(new Rules("MID","BIG",Partition.R_maybe_yes()));
-
-        rules.add(new Rules("MID","SMALL",Partition.R_yes()));
-        rules.add(new Rules("MID","MID",Partition.R_yes()));
-        rules.add(new Rules("MID","BIG",Partition.R_yes()));
+        rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_12()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_12()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_12()));
 
 
 
 
 
-        rules.add(new Rules("FAR","SMALL",Partition.R_no()));
-        rules.add(new Rules("FAR","MID",Partition.R_no()));
-        rules.add(new Rules("FAR","BIG",Partition.R_no()));
 
-        rules.add(new Rules("FAR","SMALL",Partition.R_maybe_no()));
-        rules.add(new Rules("FAR","MID",Partition.R_maybe_no()));
-        rules.add(new Rules("FAR","BIG",Partition.R_maybe_no()));
 
-        rules.add(new Rules("FAR","SMALL",Partition.R_50()));
-        rules.add(new Rules("FAR","MID",Partition.R_50()));
-        rules.add(new Rules("FAR","BIG",Partition.R_50()));
 
-        rules.add(new Rules("FAR","SMALL",Partition.R_maybe_yes()));
-        rules.add(new Rules("FAR","MID",Partition.R_maybe_yes()));
-        rules.add(new Rules("FAR","BIG",Partition.R_maybe_yes()));
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_1()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_1()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_1()));
 
-        rules.add(new Rules("FAR","SMALL",Partition.R_yes()));
-        rules.add(new Rules("FAR","MID",Partition.R_yes()));
-        rules.add(new Rules("FAR","BIG",Partition.R_yes()));
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_2()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_2()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_2()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_3()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_3()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_3()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_4()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_4()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_4()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_5()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_5()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_5()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_6()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_6()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_6()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_7()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_7()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_7()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_8()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_8()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_8()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_9()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_9()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_9()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_10()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_10()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_10()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_11()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_11()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_11()));
+
+        rules.add(new Rules("CLOSE","SMALL",Partition.R_12()));
+        rules.add(new Rules("CLOSE","MID",Partition.R_12()));
+        rules.add(new Rules("CLOSE","BIG",Partition.R_12()));
+
+
+
+
+
+        rules.add(new Rules("MID","SMALL",Partition.R_1()));
+        rules.add(new Rules("MID","MID",Partition.R_1()));
+        rules.add(new Rules("MID","BIG",Partition.R_1()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_2()));
+        rules.add(new Rules("MID","MID",Partition.R_2()));
+        rules.add(new Rules("MID","BIG",Partition.R_2()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_3()));
+        rules.add(new Rules("MID","MID",Partition.R_3()));
+        rules.add(new Rules("MID","BIG",Partition.R_3()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_4()));
+        rules.add(new Rules("MID","MID",Partition.R_4()));
+        rules.add(new Rules("MID","BIG",Partition.R_4()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_5()));
+        rules.add(new Rules("MID","MID",Partition.R_5()));
+        rules.add(new Rules("MID","BIG",Partition.R_5()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_6()));
+        rules.add(new Rules("MID","MID",Partition.R_6()));
+        rules.add(new Rules("MID","BIG",Partition.R_6()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_7()));
+        rules.add(new Rules("MID","MID",Partition.R_7()));
+        rules.add(new Rules("MID","BIG",Partition.R_7()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_8()));
+        rules.add(new Rules("MID","MID",Partition.R_8()));
+        rules.add(new Rules("MID","BIG",Partition.R_8()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_9()));
+        rules.add(new Rules("MID","MID",Partition.R_9()));
+        rules.add(new Rules("MID","BIG",Partition.R_9()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_10()));
+        rules.add(new Rules("MID","MID",Partition.R_10()));
+        rules.add(new Rules("MID","BIG",Partition.R_10()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_11()));
+        rules.add(new Rules("MID","MID",Partition.R_11()));
+        rules.add(new Rules("MID","BIG",Partition.R_11()));
+
+        rules.add(new Rules("MID","SMALL",Partition.R_12()));
+        rules.add(new Rules("MID","MID",Partition.R_12()));
+        rules.add(new Rules("MID","BIG",Partition.R_12()));
+
+
+
+
+
+
+
+
+
+
+
+
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_1()));
+        rules.add(new Rules("FAR","MID",Partition.R_1()));
+        rules.add(new Rules("FAR","BIG",Partition.R_1()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_2()));
+        rules.add(new Rules("FAR","MID",Partition.R_2()));
+        rules.add(new Rules("FAR","BIG",Partition.R_2()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_3()));
+        rules.add(new Rules("FAR","MID",Partition.R_3()));
+        rules.add(new Rules("FAR","BIG",Partition.R_3()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_4()));
+        rules.add(new Rules("FAR","MID",Partition.R_4()));
+        rules.add(new Rules("FAR","BIG",Partition.R_4()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_5()));
+        rules.add(new Rules("FAR","MID",Partition.R_5()));
+        rules.add(new Rules("FAR","BIG",Partition.R_5()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_6()));
+        rules.add(new Rules("FAR","MID",Partition.R_6()));
+        rules.add(new Rules("FAR","BIG",Partition.R_6()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_7()));
+        rules.add(new Rules("FAR","MID",Partition.R_7()));
+        rules.add(new Rules("FAR","BIG",Partition.R_7()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_8()));
+        rules.add(new Rules("FAR","MID",Partition.R_8()));
+        rules.add(new Rules("FAR","BIG",Partition.R_8()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_9()));
+        rules.add(new Rules("FAR","MID",Partition.R_9()));
+        rules.add(new Rules("FAR","BIG",Partition.R_9()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_10()));
+        rules.add(new Rules("FAR","MID",Partition.R_10()));
+        rules.add(new Rules("FAR","BIG",Partition.R_10()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_11()));
+        rules.add(new Rules("FAR","MID",Partition.R_11()));
+        rules.add(new Rules("FAR","BIG",Partition.R_11()));
+
+        rules.add(new Rules("FAR","SMALL",Partition.R_12()));
+        rules.add(new Rules("FAR","MID",Partition.R_12()));
+        rules.add(new Rules("FAR","BIG",Partition.R_12()));
 
         return rules;
     }
