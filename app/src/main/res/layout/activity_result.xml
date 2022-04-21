@@ -16,13 +16,123 @@
     <TextView
         android:id="@+id/txtRes"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:text="Описание результата:"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/yourres"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="1 - Подача газа: отсутствует,  Тормоз: сильно,
+        Наклон стрелы: маленький"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="2 - Подача газа: отсутствует,  Тормоз: средне,
+        Наклон стрелы: маленький"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="3 - Подача газа: отсутствует,  Тормоз: слабо,
+        Наклон стрелы: большой"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="4 - Подача газа: мало,  Тормоз: слабо,
+                    Наклон стрелы: большой"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="5 - Подача газа: мало,  Тормоз: слабо,
+                    Наклон стрелы: большой"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="6 - Подача газа: отсутствует,  Тормоз: средне,
+        Наклон стрелы: большой"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="7 - Подача газа: много,  Тормоз: отсутсвует,
+        Наклон стрелы: маленький"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="8 - Подача газа: средне,  Тормоз: отсутствует,
+        Наклон стрелы: средний"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="9 - Подача газа: мало,  Тормоз: отсутсвует,
+            Наклон стрелы: большой"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="10 - Подача газа: много,  Тормоз: отсутствует,
+        Наклон стрелы: средний"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="11 - Подача газа: много, Тормоз: отсутствует,
+        Наклон стрелы: маленький"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="12 - Подача газа: средний, Тормоз: отсутствует,
+        Наклон стрелы: маленький"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
     <Button
         android:id="@+id/back_btn"
         android:layout_width="wrap_content"
