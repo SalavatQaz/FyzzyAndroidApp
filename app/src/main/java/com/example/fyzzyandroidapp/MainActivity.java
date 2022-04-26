@@ -32,8 +32,13 @@ public class MainActivity extends AppCompatActivity {
             ArrayList<Double> c = Aggregator.aggregate(b);
             double defRes = Defuzzifier.defuzzi(c, rules);
 
+            ArrayList<Double> badResults = new ArrayList<>();
+            badResults.add(Partition.A_is_far(Double.parseDouble(DR.getText().toString())));
+            badResults.add(Partition.B_is_big(Double.parseDouble(AP.getText().toString())));
+
             Intent intent = new Intent(this, ResultActivity.class);
             intent.putExtra("result", defRes);
+            intent.putExtra("bad", badResults);
             startActivity(intent);
 
     }
