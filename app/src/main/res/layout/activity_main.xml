@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic1"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
 
     <EditText
         android:id="@+id/DR"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Растояние"
+        android:hint="Растояние до цели"
         android:layout_margin="20dp"
         />
     <EditText
@@ -19,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="20dp"
-        android:hint="Амплитуда"
+        android:hint="Амплитуда раскачивания"
         />
     <Button
         android:id="@+id/res"
@@ -28,6 +35,8 @@
         android:onClick="getRes"
         android:layout_margin="10dp"
         android:text="Резельтат"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:backgroundTint="#f8cd55"
+        android:textColor="@color/black"/>
 
 </LinearLayout>

@@ -1,5 +1,4 @@
 package com.example.fyzzyandroidapp;
-
 import static com.example.fyzzyandroidapp.Rules.genRules;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,14 +26,19 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void getRes(View view){
-            ArrayList<Rules> rules = genRules();
-            ArrayList<Double> b = Fuzzifier.fuzzy(rules, Double.parseDouble(DR.getText().toString().replace(',','.')),Double.parseDouble(AP.getText().toString().replace(',','.')));
-            ArrayList<Double> c = Aggregator.aggregate(b);
-            double defRes = Defuzzifier.defuzzi(c, rules);
+        ArrayList<Rules> rules = genRules();
+        ArrayList<Double> b = Fuzzifier.fuzzy(rules, Double.parseDouble(DR.getText().toString().replace(',','.')),Double.parseDouble(AP.getText().toString().replace(',','.')));
+        ArrayList<Double> c = Aggregator.aggregate(b);
+        double defRes = Defuzzifier.defuzzi(c, rules);
 
-            Intent intent = new Intent(this, ResultActivity.class);
-            intent.putExtra("result", defRes);
-            startActivity(intent);
+        ArrayList<Double> badResults = new ArrayList<>();
+        badResults.add(Partition.A_is_far(Double.parseDouble(DR.getText().toString())));
+        badResults.add(Partition.B_is_big(Double.parseDouble(AP.getText().toString())));
+
+        Intent intent = new Intent(this, ResultActivity.class);
+        intent.putExtra("result", defRes);
+        intent.putExtra("bad", badResults);
+        startActivity(intent);
 
     }
 }
