@@ -5,7 +5,7 @@ public class Partition {
     public static double A_is_so_close(double x){ return Function.left(5,20,x); }
     public static double A_is_close(double x) {return Function.triangular(5,20,40,x);}
     public static double A_is_mid(double x) {return Function.triangular(20,40,60,x);}
-    public static double A_is_far(double x) {return Function.right(40,60,x);}
+    public static double A_is_far(double x) {return Function.right(40,75,x);}
 
     public static double B_is_small(double x){return Function.left(0.7,1.5,x);}
     public static double B_is_mid(double x){return Function.triangular(0.7,1.5, 2,x);}

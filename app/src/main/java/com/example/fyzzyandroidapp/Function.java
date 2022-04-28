@@ -1,6 +1,7 @@
 package com.example.fyzzyandroidapp;
 
 public class Function {
+
     public static double left(double a, double b, double x){
         if (x<=a){
             return 1;}
@@ -8,6 +9,7 @@ public class Function {
             return 0;}
         return ((double)(b-x)/(b-a));
     }
+
     public static double triangular(double a,double b,double c,double x){
         return Math.max(Math.min((x-a)/(b-a),(c-x)/(x-b)),0);
     }

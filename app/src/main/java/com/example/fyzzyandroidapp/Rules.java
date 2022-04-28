@@ -34,16 +34,19 @@ public class Rules {
         ArrayList<Rules> rules = new ArrayList<Rules>();
 
         rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_1()));
+        rules.add(new Rules("SO_CLOSE","MID",Partition.R_2()));
+        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_3()));
+
         rules.add(new Rules("SO_CLOSE","MID",Partition.R_1()));
         rules.add(new Rules("SO_CLOSE","BIG",Partition.R_1()));
 
         rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_2()));
-        rules.add(new Rules("SO_CLOSE","MID",Partition.R_2()));
+//        rules.add(new Rules("SO_CLOSE","MID",Partition.R_2()));
         rules.add(new Rules("SO_CLOSE","BIG",Partition.R_2()));
 
         rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_3()));
         rules.add(new Rules("SO_CLOSE","MID",Partition.R_3()));
-        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_3()));
+//        rules.add(new Rules("SO_CLOSE","BIG",Partition.R_3()));
 
         rules.add(new Rules("SO_CLOSE","SMALL",Partition.R_4()));
         rules.add(new Rules("SO_CLOSE","MID",Partition.R_4()));
