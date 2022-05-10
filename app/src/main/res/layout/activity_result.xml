@@ -17,10 +17,16 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:gravity="center"
-            android:textSize="50sp"
-            android:text=""
+            android:textSize="20sp"
             android:textColor="@color/black"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Следуйте инструкциям выделенным зеленым цветом"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/txtRes"
             android:layout_width="match_parent"
@@ -33,6 +39,7 @@
             app:layout_constraintTop_toBottomOf="@id/yourres"/>
 
         <TextView
+            android:id="@+id/firstButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -42,6 +49,7 @@
             android:textSize="16sp"/>
 
         <TextView
+            android:id="@+id/secondButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -52,6 +60,7 @@
             android:textSize="16sp"/>
 
         <TextView
+            android:id="@+id/thirdButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -61,6 +70,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/fourthButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -70,6 +80,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/fifthButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -79,6 +90,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/sixthButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -88,6 +100,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/seventhButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -97,6 +110,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/eighthButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -106,6 +120,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/ninthButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -115,6 +130,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/tenthButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -124,6 +140,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/eleventhButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -133,6 +150,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"/>
         <TextView
+            android:id="@+id/twelfthButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
