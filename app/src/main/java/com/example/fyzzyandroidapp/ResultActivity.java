@@ -16,7 +16,7 @@ import com.jjoe64.graphview.series.LineGraphSeries;
 import java.util.ArrayList;
 
 public class ResultActivity extends AppCompatActivity {
-    String data = "";
+    String data1 = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +24,8 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_result);
         Bundle arguments = getIntent().getExtras();
         TextView hello = findViewById(R.id.yourres);
-//        hello.setText(arguments.get("result").toString());
-        hello.setText(String.format("%.1s",arguments.get("result").toString()));
+        hello.setText(arguments.get("result").toString());
+//        hello.setText(String.format("%.1s",arguments.get("result").toString()));
         ArrayList<Double> badResults = (ArrayList<Double>) arguments.get("bad");
         GraphView graph = (GraphView) findViewById(R.id.resGraph);
         LineGraphSeries<DataPoint> series = new LineGraphSeries<>();

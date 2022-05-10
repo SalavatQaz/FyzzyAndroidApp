@@ -12,9 +12,7 @@ public class Partition {
     public static double B_is_big(double x){return Function.right(1.5,2.5,x);}
 
 
-    public static double R_1(){
-        return 0;
-    }
+    public static double R_1(){ return 0; }
     public static double R_2(){
         return 1;
     }

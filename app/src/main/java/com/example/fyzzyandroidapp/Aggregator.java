@@ -8,7 +8,7 @@ public class Aggregator {
         ArrayList<Double> c = new ArrayList<>();
         int i=0;
         int j=0;
-        while (i<144){
+        while (i<12){
             ArrayList<Double> nowArray = new ArrayList<Double>();
             nowArray.add(b.get(j));
             nowArray.add(b.get(j+1));

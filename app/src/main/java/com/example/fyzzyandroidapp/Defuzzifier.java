@@ -8,7 +8,7 @@ public class Defuzzifier {
         double sumNumerator = 0;
         double sumDenominator = 0;
 
-        while (i<144){
+        while (i<12){
             sumNumerator += c.get(i) * rules.get(i).R_is();
             sumDenominator += c.get(i);
             i++;

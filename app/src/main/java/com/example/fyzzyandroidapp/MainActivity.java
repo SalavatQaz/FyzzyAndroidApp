@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Double> b = Fuzzifier.fuzzy(rules, Double.parseDouble(DR.getText().toString().replace(',','.')),Double.parseDouble(AP.getText().toString().replace(',','.')));
         ArrayList<Double> c = Aggregator.aggregate(b);
         double defRes = Defuzzifier.defuzzi(c, rules);
+        System.out.println(defRes);
 
         ArrayList<Double> badResults = new ArrayList<>();
         badResults.add(Partition.A_is_far(Double.parseDouble(DR.getText().toString())));
