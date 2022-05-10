@@ -24,8 +24,11 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_result);
         Bundle arguments = getIntent().getExtras();
         TextView hello = findViewById(R.id.yourres);
-        hello.setText(arguments.get("result").toString());
 //        hello.setText(String.format("%.1s",arguments.get("result").toString()));
+        double res = arguments.getDouble("result");
+        res += 1;
+        hello.setText(String.valueOf(res));
+        giveInstruction(res);
         ArrayList<Double> badResults = (ArrayList<Double>) arguments.get("bad");
         GraphView graph = (GraphView) findViewById(R.id.resGraph);
         LineGraphSeries<DataPoint> series = new LineGraphSeries<>();
@@ -44,5 +47,47 @@ public class ResultActivity extends AppCompatActivity {
     public void goBack(View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    private void giveInstruction(double res){
+        TextView text;
+        if(res <= 1){
+            text = findViewById(R.id.firstButton);
+        }
+        else if(res <= 2){
+            text = findViewById(R.id.secondButton);
+        }
+        else if(res <= 3){
+            text = findViewById(R.id.thirdButton);
+        }
+        else if(res <= 4){
+            text = findViewById(R.id.fourthButton);
+        }
+        else if(res <= 5){
+            text = findViewById(R.id.fifthButton);
+        }
+        else if(res <= 6){
+            text = findViewById(R.id.sixthButton);
+        }
+        else if(res <= 7){
+            text = findViewById(R.id.seventhButton);
+        }
+        else if(res <= 8){
+            text = findViewById(R.id.eighthButton);
+        }
+        else if(res <= 9){
+            text = findViewById(R.id.ninthButton);
+        }
+        else if(res <= 10){
+            text = findViewById(R.id.tenthButton);
+        }
+        else if(res <= 11){
+            text = findViewById(R.id.eleventhButton);
+        }
+        else {
+            text = findViewById(R.id.twelfthButton);
+        }
+        text.setBackgroundColor(getColor(R.color.green));
+
     }
 }
